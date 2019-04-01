@@ -1,0 +1,7 @@
+custom_controller_twig.route:
+  path: '/display-custom-twig'
+  defaults:
+    _controller: '\Drupal\custom_controller_twig\Controller\CustomTwigController::getData'
+    _title: 'Employee Details Table'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,7 @@
+custom_controller_twig.display:
+  version: 1.x
+  css:
+    component:
+      css/custom_controller_twig.css: {}
+  dependencies:
+    - core/jquery

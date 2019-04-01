@@ -1,0 +1,18 @@
+{{ attach_library('custom_controller_twig/custom_controller_twig.display') }}
+
+<table>
+    <thead>
+        <th>Employee Name</th>
+        <th>Employee ID</th>
+        <th>Employee Salary</th>
+    </thead>
+
+    {% for row in data %}
+
+        <tr>
+            <td>{{ row.field_employee_name_value }}</td>
+            <td>{{ row.field_employee_id_value }}</td>
+            <td>{{ row.field_salary_value }}</td>
+        </tr>
+    {% endfor %}
+</table>

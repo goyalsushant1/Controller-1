@@ -1,0 +1,18 @@
+td,
+th {
+  border: 1px solid #ddd !important;
+  padding: 5px;
+}
+
+tr {
+  background-color: white !important;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red !important;
+  color: white;
+  height: 20px;
+}
